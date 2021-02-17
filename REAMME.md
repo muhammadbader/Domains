@@ -1,6 +1,9 @@
 crash course on c#
-https://www.youtube.com/watch?v=9MHYHgh4jYc
+https://www.youtube.com/watch?v=1nxzOrLWiic&ab_channel=TechWithTim
 
+flask with react:
+50:00
+https://www.youtube.com/watch?v=cb1vy1HpVwk&ab_channel=THESHOW
 
 ADOBE XD prototype:
 https://xd.adobe.com/view/812ae6b0-98c0-415f-97e8-8ef3e1be3400-d479/
