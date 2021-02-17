@@ -1,0 +1,30 @@
+{%extends "base.html"%}
+{%block title%}Login page{%endblock%}
+
+{%block content%}
+
+
+{% with messages = get_flashed_messages()%}
+    {%if messages %}
+        {%for msg in messages%}
+            <p>{{msg}}</p>
+        {%endfor%}
+    {%endif%}
+{%endwith%}
+
+<form action="#" method="post">
+
+    <p align="center">email or username:</p>
+    <p align="center"><input type="text" name="nm"/></p>
+
+    <p align="center">pasword:</p>
+    <p align="center"><input type="password" name="pass"/></p>
+    <!--    <input type="checkbox" onclick="myFunction()">Show Password-->
+
+    <p align="center"><input type="submit" value="login"/></p>
+
+    <div class="nav-item active">
+        <a class="nav-link" href="signup">NewBie, SIGNUP!! <span class="sr-only">(current)</span></a>
+    </div>
+</form>
+{%endblock%}

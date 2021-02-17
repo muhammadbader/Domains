@@ -1,0 +1,22 @@
+{%extends "base.html"%}
+{%block title%}Signup page{%endblock%}
+
+{%block content%}
+<form action="#" method="post">
+    <p align="center">username:</p>
+    <p align="center"><input type="text" name="nm"/></p>
+
+    <p align="center">E-mail:</p>
+    <p align="center"><input type="text" name="mail"/></p>
+
+    <p align="center">pasword:</p>
+    <p align="center"><input type="password" name="pass"/></p>
+
+    <p align="center">confirm pasword:</p>
+    <p align="center"><input type="password" name="confirm"/></p>
+    <p align="center"><input type="submit" value="confirm password"/></p>
+</form>
+<div class="nav-item active">
+    <a class="nav-link" href="login">Already have an account <span class="sr-only">(current)</span></a>
+</div>
+{%endblock%}
