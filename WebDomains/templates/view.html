@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{%extends "base.html"%}
+{%block title%} View all data {%endblock%}
+{%block content%}
+    {%for item in values%}
+        <p>username: {{item.name}}, Email: {{item.email}}, password: {{item.password}}</p>
+    {%endfor%}
+{%endblock%}
