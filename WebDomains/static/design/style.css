@@ -58,6 +58,12 @@ abbr {
 	position: relative;
 	}
 
+.search-bar{
+	width:500px;
+
+
+}
+
 .intro { 
 	min-width: 470px;
 	width: 100%;
