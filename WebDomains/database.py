@@ -1,4 +1,18 @@
 from WebDomains import db
+import pandas as pd
+# from sqlalchemy import create_engine
+
+# DATATASE_CONECTION = 'mssql://{USERNAME}:{PASSWORD}@{SERVER}/{DATABASE}?driver={DRIVER}'
+# engine = create_engine(DATATASE_CONECTION)
+# connection = engine.connect()
+
+
+# # step 2: fetching data from database
+# data = pd.read_sql_query("some sql query", connection)
+# # do some stuff on data
+# # step 3: send back manipulated data to slq sever
+# data.to_sql('Border_Cross_Entry_Data$', con=engine, if_exists='append', index=False, chunksize=50)
+
 
 
 def add_user(user):
