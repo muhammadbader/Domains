@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%extends "base.html"%}
+{%block title%} account setting {%endblock%}
+
+{%block content%}
+{% with messages = get_flashed_messages()%}
+    {%if messages %}
+        {%for msg in messages%}
+            <a>{{msg}}</a>
+        {%endfor%}
+    {%endif%}
+{%endwith%}
+
+
+
+<h1> Get New Password </h1>
+<form action="#" method="post">
+    <p style="text-align: center" >
+        <label> enter old password </label>
+        <p><div><input  style="width: 600px" type="password" name="old" placeholder="old password"/></div></p>
+        <label> enter new password </label>
+        <p><div><input  style="width: 600px" type="password" name="new" placeholder="new password"/></div></p>
+        <label> confirm new password </label>
+        <p><div><input  style="width: 600px" type="password" name="confirm" placeholder="confirm new password"/></div></p>
+    </p>
+    <button type="submit" name="change password" value="confirm change"> confirm change </button>
+    <button type="submit" name="change password" value="back"> back to search </button>
+</form>
+{%endblock%}
+

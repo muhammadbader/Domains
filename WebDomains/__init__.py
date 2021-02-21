@@ -1,7 +1,6 @@
 from flask import Flask
 from datetime import timedelta
 from flask_sqlalchemy import SQLAlchemy
-# todo: search for engine in sqlalchemy
 
 app = Flask(__name__)
 # this is important for using session
