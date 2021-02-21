@@ -1,5 +1,5 @@
-crash course on c#
-https://www.youtube.com/watch?v=1nxzOrLWiic&ab_channel=TechWithTim
+bootstrap tutorial
+https://www.youtube.com/watch?v=QAgrHLtG1Yk&list=PL4cUxeGkcC9jE_cGvLLC60C_PeF_24pvv
 
 flask with react:
 50:00
