@@ -3,7 +3,6 @@
 {%block title%}Search page{%endblock%}
 
 {%block content%}
-<p>Welcome {{user}}</p>
 {% with messages = get_flashed_messages()%}
     {%if messages %}
         {%for msg in messages%}
@@ -13,6 +12,8 @@
 {%endwith%}
 
 
+
+<p>Welcome {{user}}</p>
 
 <form action="#" method="post">
 
@@ -25,14 +26,10 @@
 
     <p><input type="submit" name="search_button" value="search domain"/><img src="{{url_for('static', filename='images/world_logo.png')}}" width="100" height="100"></p>
     <input type="submit" name="search_button" value="signout"/>
-<!--    for testing delete and update -->
-<!--    <input type="submit" name="search_button" value="update email"/>-->
-<!--    <input type="submit" name="search_button" value="delete email"/>-->
+    <p><p><p><input type="submit" name="search_button" value="delete account"/></p></p></p>
+    <p><p><p><input type="submit" name="search_button" value="change password"/></p></p></p>
 </form>
 <p>
-    <!--<div class="nav-item active">-->
 
-    <!--    <a class="nav-link" href="login">Signout <span class="sr-only">(current)</span></a>-->
-    <!--</div>-->
 </p>
 {%endblock%}
