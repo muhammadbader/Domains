@@ -1,0 +1,16 @@
+.header{
+
+    height: 40px;
+}
+.main-content{
+    min-height: 500px;
+    background-color: white;
+}
+.content{
+    background-color: pink;
+}
+
+.footer{
+    height: 40px;
+
+}

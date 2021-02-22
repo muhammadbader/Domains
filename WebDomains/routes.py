@@ -116,7 +116,7 @@ def welcome_page():
 
 @app.route('/search', methods=['POST', 'GET'])
 def search():
-    if session['logged_in']:
+    if 'logged_in' in session and session['logged_in']:
         # flash('ready for some domain search')
         if request.method == 'POST':
             if request.form.get('search_button') == 'signout':
